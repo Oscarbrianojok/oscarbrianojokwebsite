@@ -1,0 +1,21 @@
+
+/* Final responsive and accessibility polish. Original text and imagery unchanged. */
+:root{--focus-ring:#a6d73d}
+html{scroll-padding-top:95px}
+body{overflow-x:hidden;-webkit-font-smoothing:antialiased}
+.header{z-index:120}
+.header nav{gap:clamp(7px,1.2vw,18px)}
+.header nav a{white-space:nowrap}
+.hero-copy .actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px 22px}
+.hero-copy .actions .underlink{white-space:nowrap}
+img{max-width:100%}
+.brand-mark,.initiative-brand img,.initiative-logo img{object-fit:contain!important}
+.feature-card,.award-card,.moment-tile{min-width:0}
+a,button{touch-action:manipulation}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px}
+.footer-contact{display:flex;flex-wrap:wrap;gap:10px 18px}
+.footer-contact a{white-space:nowrap}
+@media(max-width:1050px){.header{gap:12px}.header nav{gap:9px}.header nav a{font-size:13px}}
+@media(max-width:780px){.hero-copy .actions{gap:16px}.footer-contact{width:100%}.moment-grid{gap:14px}}
+@media(max-width:480px){.hero-copy h1{overflow-wrap:normal}.hero-copy .actions .btn{max-width:100%}.footer-contact a{padding:5px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

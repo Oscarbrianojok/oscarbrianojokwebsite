@@ -1,0 +1,88 @@
+STATIC WEBSITE QUALITY CHECK
+{
+  "pages": {
+    "about.html": {
+      "images": 2,
+      "links": 19,
+      "has_main": true,
+      "has_title": true
+    },
+    "blog.html": {
+      "images": 0,
+      "links": 18,
+      "has_main": true,
+      "has_title": true
+    },
+    "contact.html": {
+      "images": 0,
+      "links": 25,
+      "has_main": true,
+      "has_title": true
+    },
+    "expertise.html": {
+      "images": 0,
+      "links": 18,
+      "has_main": true,
+      "has_title": true
+    },
+    "index.html": {
+      "images": 8,
+      "links": 33,
+      "has_main": true,
+      "has_title": true
+    },
+    "initiatives.html": {
+      "images": 2,
+      "links": 20,
+      "has_main": true,
+      "has_title": true
+    },
+    "moments.html": {
+      "images": 22,
+      "links": 18,
+      "has_main": true,
+      "has_title": true
+    },
+    "projects.html": {
+      "images": 0,
+      "links": 17,
+      "has_main": true,
+      "has_title": true
+    },
+    "recognition.html": {
+      "images": 0,
+      "links": 19,
+      "has_main": true,
+      "has_title": true
+    }
+  },
+  "missing_local_files": [],
+  "missing_fragments": [],
+  "external_links": [
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://x.com/oscarbrianojok",
+    "https://wa.me/256785449978",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://www.ecoflash.ltd",
+    "https://www.innovate2daysocietas.org",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a",
+    "https://wa.me/256785449978",
+    "https://www.linkedin.com/in/oscar-brian-ojok-47771b11a"
+  ]
+}
+Browser automation attempted, but navigation was blocked by the environment. Visual testing on live browser/device remains outstanding.

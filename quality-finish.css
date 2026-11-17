@@ -1,0 +1,20 @@
+/* Final quality and accessibility pass. No content or brand substitutions. */
+:root{color-scheme:light}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{min-width:320px}
+main{min-width:0}
+p,li{overflow-wrap:break-word}
+img{display:block;max-width:100%;height:auto}
+.feature-card .initiative-card-logo{background:transparent!important;border:0!important;justify-content:flex-start!important;overflow:visible!important}
+.feature-card .initiative-card-logo img{width:116px!important;height:116px!important;object-fit:contain!important;box-sizing:border-box!important;background:#fff!important;border-radius:14px!important;padding:10px!important}
+.feature-card:nth-child(2) .initiative-card-logo img{background:transparent!important;padding:0!important}
+.feature-card h3{overflow-wrap:break-word}
+.venture-title .brand-inline{flex-shrink:0}
+.venture-title .brand-inline img{object-fit:contain}
+.blog-card[hidden],.moment-tile[hidden],.no-results[hidden]{display:none!important}
+button,input,summary{font:inherit}
+summary{cursor:pointer}
+a,button,summary{-webkit-tap-highlight-color:transparent}
+:where(a,button,input,summary):focus-visible{outline:3px solid #7d9f14;outline-offset:4px}
+@media(max-width:780px){.feature-card .initiative-card-logo img{width:104px!important;height:104px!important}.header nav a{min-height:42px;display:flex;align-items:center}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
